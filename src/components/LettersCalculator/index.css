@@ -1,0 +1,68 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (max-width: 768px) {
+  .bg-container {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    background-size: cover;
+    height: 120vh;
+    width: 120vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image {
+    height: 400px;
+    width: 350px;
+    order: 1;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'roboto';
+}
+.para {
+  font-size: 15px;
+  color: #e4e7eb;
+  font-family: 'roboto';
+}
+.search-input {
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+  border: 1px #e4e7eb solid;
+  margin-top: 10px;
+  color: #e4e7eb;
+}
+
+.count {
+  background-color: #ffffff;
+  color: #219a6f;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.image {
+  height: 600px;
+  width: 700px;
+}
